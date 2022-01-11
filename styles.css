@@ -1,0 +1,47 @@
+h1,
+h2 {
+color:darksalmon
+}
+#content {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 500px;
+   min-width: 500px;
+}
+img {
+    max-width: 30%;
+    padding-left: 19em;
+    margin-top: -2em;
+    padding-bottom: 1.5em;
+}
+.home-grid {
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+header {
+    background-color: rgb(49, 36, 136);
+    border-radius: 20px 20px 20px 20px;
+}
+footer {
+    background-color: rgb(49, 36, 136);
+    border-radius: 20px 20px 20px 20px;
+    color: darksalmon;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+}
+h1 {
+    padding-left: 1em;
+    position: relative;
+    top: 2.5em;
+}
+html, body{
+    max-width: 500px;
+    max-height: 300px;
+}
+ul {
+    font-family:'Courier New', Courier, monospace;
+}
