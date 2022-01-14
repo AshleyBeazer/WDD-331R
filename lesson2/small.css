@@ -1,0 +1,91 @@
+#content {
+    margin: auto;
+    max-width: 960px;
+}
+header {
+    background-color: rgb(134, 201, 206);
+    text-align: center;
+    padding: 1em;
+}
+img {
+    display: block;
+   margin-right: auto;
+   margin-left: auto;
+    max-width: 300px;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Abril Fatface', cursive;
+}
+h1 {
+    text-align: center; 
+    color: #000000; 
+}
+h2 {
+    text-align: center;
+    color:#000000;
+    background-color: rgb(134, 201, 206);
+    padding: 1em;   
+}
+h3 {
+    color:black;
+    background-color: rgb(134, 201, 206);
+    padding: .5em;
+    border-radius: 8px 8px 0 0;
+}
+h4 {
+    color:black;
+    padding: .5em;
+    line-height: 1em;
+}
+p {
+    padding: .5em;
+}
+.section-1 {
+    background-color: rgb(134, 201, 206);
+    padding: 1em;
+    padding-left: 3em;
+    justify-items: center;
+}
+body {
+    margin-top: 20px;
+    padding: .5em;
+}
+.principle-1,
+.principle-2,
+.principle-3 {
+    background-color: rgb(134, 201, 206);
+    max-width: 400px;
+    border-radius: 8px 8px 0 0;
+    margin: auto;
+}
+footer {
+    line-height: 1.25em;
+    text-align: center;
+    background-color:rgb(134, 201, 206);
+    padding: 1em;
+    font-family: 'Abril Fatface', cursive;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.site-1 {
+    border: 1px solid #000000;
+    border-radius: .25em;
+    margin-bottom: .5em;
+}
+.site-2 {
+    border: 1px solid #000000;
+    border-radius: .25em;
+    margin-bottom: .5em;
+}
+.site-3 {
+    border: 1px solid #000000;
+    border-radius: .25em;
+    margin-bottom: .5em;
+}
