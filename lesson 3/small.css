@@ -7,7 +7,7 @@ p {
     color: #2c497f;
 }
 html {
-    background-color: #ffe57e;
+    background-color: #2c497f;
   }
   body {
     max-width: 1200px;
@@ -19,8 +19,8 @@ html {
     max-width: 100%;
   }
   header, footer {
-      color: white;
-      background-color:#5bc0be;
+      color: #2c497f;
+      background-color:#ffe57e;
       padding: 1em;
       text-align: center;
   }
@@ -28,8 +28,8 @@ html {
       color: #2c497f;
   }
   nav {
-      background-color: #2c497f;
-      color: #ffffff;
+      background-color: #ffa971;
+      color: #2c497f;
       text-align: center;
   }
   nav ul {
@@ -45,11 +45,11 @@ html {
 }
 nav ul li a {
 	padding: 15px;
-	color: #ffffff;
+	color: #2c497f;
   font-size: 20px;
 }
   nav a:hover {
-    color: #ffa971;
+    color: #5bc0be;
   }
 h1 {
     font-size: 30px;
