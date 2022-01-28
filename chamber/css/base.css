@@ -50,13 +50,13 @@ list-style-type: none;
 #date {
   background-color: #ffa971;
   grid-column: 1/5;
-  padding: 1em;
+  padding: 3em;
   text-align: center;
 }
 main {
     color: #2c497f;
 }
-nav button {
+#hamburgerMenu {
     background: transparent;
     border: 1px solid #ffa971;
     font-size: 2rem;
@@ -64,7 +64,8 @@ nav button {
     position: absolute;
     right: 5px;
     top: 35px;
-    margin-right: 2em;
+    margin-right: 1em;
+    font-size: 20px;
 }
 nav {
     background-color: transparent;
@@ -76,6 +77,7 @@ nav ul {
   display: flex;
 justify-content: space-between;
 font-family: 'Garamond', serif;
+display: none;
 }
 nav ul li {
   padding: 15px;
@@ -186,7 +188,7 @@ padding-left: 1em;
           display: none;
           }
           footer img {
-            max-width: 60px;
+            width: 60px;
           }
           footer {
             text-align: center;

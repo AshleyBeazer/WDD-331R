@@ -47,11 +47,19 @@
        footer {
            display:grid;
            grid-template-columns: 1fr 1fr;
-       }  
+           align-items: center;
+           gap: 1em;
+       } 
+        .footer-main {
+            display: flex;
+            align-content: center;
+            grid-column: 1;
+        }
        footer img {
            float: left;
-           width: 180px;
-           padding: 1em;
+           width: 80px;
+           height: 80px;
+           margin-right: 1em;
        }
        .address {
            grid-column: 1/2;

@@ -14,11 +14,12 @@
         align-self: center;
         background-color: transparent;
     }
-    nav ul#navBar {
+    nav ul#Nav {
         display: flex;
     }
     nav ul li a {
         border: none;
+        display: block;
     }
     .headerContent {
         display: grid;
@@ -29,6 +30,7 @@
     }
     #date {
         grid-column: 1/5;
+        font-size: 25px;
     }
     #hamburgerMenu {
         display: none;
@@ -47,15 +49,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-row: 1em;
+        grid-row: .5em;
     }
     .event {
         grid-column: 1/2;
         grid-row: 1/2;
+        height: auto;
         }
     .hero {
         grid-column: 2/4;
         grid-row: 1/3;
+        height: auto;
         }
         .place-holder {
             display: block;
@@ -68,14 +72,17 @@
             .weather {
                 grid-column: 1/2;
                 grid-row: 2/3;
+                height: auto;
                 }
                 .join {
                     grid-column: 1/2;
                     grid-row: 3/4;
+                    height: auto;
                     }
           .news {
           grid-column: 2/4;
           grid-row: 3/4;
+          height: auto;
           }
           .place-holder p:nth-child(3) {
               display: block;
