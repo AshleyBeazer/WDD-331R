@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     yrSpan.textContent = currentYr;
   });
   let lastVisit = document.lastModified;
-  document.getElementById("updated").textContent = "Last Updated:" + lastVisit;
   const datefield = document.querySelector("#date");
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
