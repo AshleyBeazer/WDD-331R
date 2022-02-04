@@ -27,6 +27,6 @@ displayDate[4] = "Thursday";
 displayDate[5] = "Friday";
 displayDate[6] = "Saturday";
 if (displayDate[day.getDay()]==="Monday" || (displayDate[day.getDay()]==="Tuesday")){
-    document.getElementsByClassName('my_banner').style.display = "block";
+    document.getElementsByClassName('announcement').style.display = "block";
 }
-else {document.getElementsByClassName('my_banner').style.display = "none";}
+else {document.getElementsByClassName('announcement').style.display = "none";}
