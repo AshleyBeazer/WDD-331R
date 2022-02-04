@@ -238,6 +238,11 @@ display: flex;
           color: #5bc0be;
           text-align: center;
           }
+          .join-us {
+            padding: 2px;
+            background-color: #ffe57e;
+            align-content: center;
+          }
           footer img {
             width: 60px;
           }
