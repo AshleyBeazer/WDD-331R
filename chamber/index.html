@@ -15,12 +15,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="content">
-        <header>
-            <div class="announcement"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+            <div class="banner" id="banner" style="display: none">
+                <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            </div>
+            <div class="content">
+                <header>
             <div class="headerContent">
             <div class="logo">
-           <img src="./images/Morning Light Chamber Logo.png" alt="Moring Light Chamber Logo"/>
+           <img src="./images/Morning-Light-Chamber-Logo.webp" alt="Moring Light Chamber Logo"/>
           </div>
           <div class="name">
            <h1>Morning Light Chamber</h1>
@@ -44,7 +46,12 @@
         <main>
             <div class="mainContent">
             <div class="hero">
-            <img src="./images/syracuse.png" alt="Syracuse Utah image of fields">
+                <picture class="hero-image">
+                    <source media="(max-width: 501px)" srcset="./images/small-wdd230-org(2).jpg">
+                    <source media="(max-width: 1023px)" srcset="./images/medium-wdd230-org(1).jpg">
+                    <source media="(max-width: 1500px)" srccset="./images/new-large-wdd230-org.png">
+                    <img src="./images/new-large-wdd230-org.png" alt="Syracuse Utah image of fields">
+                </picture>
         <div class="welcome">Welcome to Syracuse</div><div class="join-chamber">Join the Chamber</div></div><br>
             <div class="event">
                 <h2>Syracuse Heritage Days</h2>
@@ -53,7 +60,7 @@
             <div class="weather">
                 <h2>Weather</h2>
                 <img src="./images/sun.png" alt="sunny weather icon">
-            <h3>32 degrees</h3> <p><br>Sunny <br>Wind Speed: 11mph <br>Wind Chill: 24 degrees</p></div><br>
+            <span class="temperature">32&deg;</span> <p><br>Sunny <br><span>Wind Speed:</span><span class="wind-speed"> 11mph</span><br><span>Wind Chill:<span id="windChill"></span> N/A&deg;</span></p></div><br>
             <div class="news"><h2>News Release</h2>
                 <p>Welcome, Mayor Dave Maughan! We are happy to announce new Syracuse mayor, Dave Maughan. Please look for Mayor Maughan’s first letter to the city in March. He was the first mayor to be sworn in remotely and we are excited to have him.</p></div><br>
             <div class="place-holder">
@@ -93,6 +100,7 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         </footer>
       <script src="js/home-page.js"></script>
+      <script src="js/windchill.js"></script>
       </div>
     </body>
 </html>

@@ -16,17 +16,19 @@ window.onload = function() {
     const x = document.getElementById('hamburgerMenu');
     x.onclick = toggleMenu;
 }
-let date=new Date();
-let day=date.getDay();
-let displayDate = new Array(7);
-displayDate[0] = "Sunday";
-displayDate[1] = "Monday";
-displayDate[2] = "Tuesday";
-dispalyDate[3] = "Wednesday";
-displayDate[4] = "Thursday";
-displayDate[5] = "Friday";
-displayDate[6] = "Saturday";
-if (displayDate[day.getDay()]==="Monday" || (displayDate[day.getDay()]==="Tuesday")){
-    document.getElementsByClassName('announcement').style.display = "block";
+const banner = document.getElementById("banner");
+let today = new Date();
+day = today.getDay();
+
+const showBanner = () => {
+    banner.style.display = "block";
+};
+
+// if (day == 1)  {
+//     showBanner();
+// } else if (day === 2) {
+//   showBanner();
+// }
+if (day === 1 || day === 2) {
+  showBanner();
 }
-else {document.getElementsByClassName('announcement').style.display = "none";}
