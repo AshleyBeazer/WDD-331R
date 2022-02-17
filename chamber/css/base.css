@@ -48,7 +48,7 @@ grid-column: 4/5;
 list-style-type: none;
 }
 #date {
-  background-color: #ffa971;
+  
   grid-column: 1/5;
   padding: 2em;
   text-align: center;
@@ -251,3 +251,48 @@ h3 {
             color: #2c497f;
             font-size: 20px;
           }
+          main.gallery {
+            background-attachment: fixed;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 80px;
+            grid-auto-rows: 400px;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 20px;
+}
+        main.gallery h2 {
+            margin-top: 1.25em;
+            grid-column: 1 / -1;
+        }
+        main.gallery picture {
+          object-fit: cover;
+          object-position: center;
+          transition: all 0.3s;
+      }
+        main.gallery picture img {
+            display: block;
+        }
+        main.gallery picture img.in {
+          animation: img-come-in 1s;
+      }
+      
+      @keyframes img-come-in {
+          from {
+              transform: scale(0.9);
+              opacity: 0;
+          }
+          to {
+              transform: scale(1);
+              opacity: 1;
+          }
+        }
+        .last-visit {
+          align-content: center;
+          justify-content: center;
+          grid-column: 1/5;
+           grid-row: 3;
+           display: flex;
+           flex-wrap: wrap;
+          padding-bottom: 3em;
+        }

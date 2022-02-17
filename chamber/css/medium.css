@@ -84,5 +84,16 @@
            padding: .5em;
            border-right: 1px solid;
        }
+       main.gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        grid-gap: 30px;
+        padding-bottom: 30px;
+       }
+       main.gallery picture:hover {
+        transform: translate(-10px, -10px);
+    }
 
 }
