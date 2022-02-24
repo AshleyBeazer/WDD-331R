@@ -1,6 +1,2 @@
-function generateDate(){
-    var currentTime = new Date();                
-    var curdate = currentTime.getDate();
-    document.getElementbyId("dateHidden").value = curdate;
-    return true;
-}
+const thisVisit = Date.now();
+let inputHiddenEl = document.getElementById('inputHidden').setAttribute('value', thisVisit);
