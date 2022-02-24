@@ -296,3 +296,70 @@ h3 {
            flex-wrap: wrap;
           padding-bottom: 3em;
         }
+        form {
+          padding: 1rem 0;
+        }
+        fieldset {
+          border-radius: 5px;
+          margin-bottom: 1.25rem;
+          grid-column: 1;
+          max-width: 450px;
+      }
+      fieldset legend {
+          padding: 0.25rem;
+      }
+        form label {
+          font-size: 0.8em;
+      }
+      form label, form div {
+        margin-top: 1rem;
+        padding-bottom: 0.3rem;
+    }
+    form label span {
+      color: #ffa971;
+  }
+    div label {
+      margin-top: 0;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+    form label, form input, form select, form textarea {
+      display: block;
+      width: 100%;
+  }
+  form input {
+    margin-top: 5px;
+    width: calc(100% - 0.75rem * 2);
+    padding: 0.75rem;
+}
+form input, form select, form textarea {
+  background-color: #eeeeee;
+  border: solid 1px;
+  border-radius: 4px;
+}
+form input[type="submit"] {
+  background-color:#ffa971;
+  color: #2c497f;
+  width: 100%;
+  margin-top: 10px;
+}
+form input[type="submit"]:hover {
+  background-color: #ffe57e;
+}
+form textarea {
+  width: calc(100% - 5px);
+  height: 4em;
+  margin-top: 5px;
+}
+label p {
+  color: #2c497f;
+}
+.membership {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.minfo {
+  grid-column: 2/3;
+}
+
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ashley McKeehan's WDD 230 Chamber of Commerce Site">
+        <title>WDD 230 Chamber of Commerce</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="content">
+                <header>
+            <div class="headerContent">
+            <div class="logo">
+           <img src="./images/Morning-Light-Chamber-Logo.webp" alt="Moring Light Chamber Logo"/>
+          </div>
+          <div class="name">
+           <h1>Morning Light Chamber</h1>
+           </div>
+           <section class="socialMedia">
+            <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt="Facebook icon"></a>
+            <a href="https://www.instagram.com/?hl=en"><img src="./images/instagram.png" alt="Instagram icon"></a>
+           </section>
+           <span id="date"></span>
+           <button id="hamburgerMenu"><span>&#9776;</span><span>X</span></button>
+           <nav>
+             <ul id="Nav">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="index.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="index.html">Contact</a></li>  
+            </ul>
+           </nav>
+           </div>
+        </header>
+        <main class="form">
+            <h2>Join Morning Light Chamber of Commerce</h2>
+            <form action="thankyou.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label>First Name<span>*</span>
+                        <input name="name" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" required>
+                    </label>
+                    <label>Last Name<span>*</span>
+                        <input name="name" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" required>
+                    </label>
+                    <label>Business Position Title
+                        <input name="title" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" minlength="7">
+                    </label>
+                    <label>Email<span>*</span>
+                        <input name="email" type="email" placeholder="someone@gmail.com" required>
+                    </label>
+                    <label>Cell Phone Number<span>*</span>
+                        <input name="phone" type="tel" required>
+                    </label>
+                    <label>Business Name<span>*</span>
+                        <input name="title" type="text" required>
+                    </label>
+                </fieldset>
+                <div class="membership">
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <div>
+                            <label class="container"><input type="radio" name="level" value="level-1"> Non Profit Membership</label>
+                            <label class="container"><input type="radio" name="level" value="level-2"> Bronze Membership</label>
+                            <label class="container"><input type="radio" name="level" value="level-3"> Silver Membership</label>
+                            <label class="container"><input type="radio" name="level" value="level-4"> Gold Membership</label>
+                    </div>
+                    </fieldset>
+                    <label class="minfo">
+                        <p>
+                            <b>$0</b><br>
+                           Non Profit Membership is for non profit organizations like churches, schools, non-profit entities and many other community service oriented organizations. <br>
+                           <b>Benefits:</b><br>
+                           Ribbon Cutting, 
+                           Company Business Listing on Chamber Website, 
+                           Event postings on Chamber Website, 
+                           Discounted rates to attend Chamber Events
+                        </p>
+                        <p>
+                            <b>$150</b><br>
+                            The Bronze Membership Level offers an introductory discount for those looking to join the Chamber for the first time. <br>
+                            <b>Benefits:</b> <br>
+                            Ribbon Cutting, 
+                            Company Business Listing on Chamber Website, 
+                            Event posting on Chamber Website, 
+                            Discounted rates to attend Chamber Events, 
+                            Company information in relocation packets, 
+                            10% Discount on any Big Media Advertising Package, 
+                            Job Postings on Chamber Website and Facebook page
+                        </p>
+                        <p>
+                            <b>$350</b><br>
+                            The Silver Membership Level is best fit for those who want to boost their local advertising efforts. <br>
+                            <b>Benefits:</b><br>
+                            Bronze Membership Benefits, 
+                            20% Discount on any Big Media Advertising Package, 
+                            Request up to 12 Facebook Advertisements, 
+                            One Complimentary Ticket and Preferential Seating at Annual Banquet, 
+                            Company name and logo framed on poster at Chamber banquets & seminars
+                        </p>
+                        <p>
+                            <b>$600</b><br>
+                            The Gold Membership Level offers businesses, entrepreneurs, and professionals an opportunity to promote their business across several platforms and take part in community wide events. Gold Members receive all the above membership benefits with specialized advertising and more!<br>
+                            <b>Benefits:</b><br>
+                            Bronze and Silver Membership Benefits, 
+                            30% Discount on any Big Media Advertising Package, 
+                            Request up to 24 Facebook Advertisements, 
+                            Two Complimentary Ticket and Preferential Seating at Annual Banquet, 
+                            Hole Sponsor at Glen Eagle Golf Tournament, 
+                            One ad in Community Guide ($100)
+                        </p>
+                    </label>
+                </div>
+                    <fieldset>
+                        <legend>Business</legend>
+                    <label>Business Description
+                        <textarea name="business-description"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Join Morning Light Chamber">
+            </form>
+            <input type="hidden" name="Language" id="dateHidden">
+            <form name="myform" action="js/join.js"></form>
+        </main>
+    </div>
+    <footer>
+        <div class="footer-main">
+        <img src="./images/Morning Light Chamber Logo.png" alt="Morning Light Chamber Logo"><br>
+       <div class="address">
+        <h3>Morning Light Chamber</h3>
+        <h4>1400 Troon Drive<br>Syracuse, Utah 84075</h4>
+        </div>
+        </div>
+        <div class="info">
+        <h4>morninglightchamber.com</h4>
+        <h4>(801) 989-7952</h4>
+        <li><a href="https://goo.gl/maps/xJzFd81k7Pc76vLg8">Syracuse Map</a></li><br>
+        </div>
+        <div class="school">
+        &copy;<span id="year"></span> | Ashley McKeehan | WDD 230 Project |
+        <span id="updated"></span>
+        </div>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </footer>
+  <script src="js/home-page.js"></script>
+  </div>
+</body>
+</html>
