@@ -1,0 +1,88 @@
+{
+    "business": [
+        {
+            "name": "The Bird",
+            "address": "2432 W 1700 S, Syracuse, UT",
+            "phone": "(385) 477-8663",
+            "website": "https://www.lovethebird.com/",
+            "image": "./images/theBird.png"
+        },
+        {
+            "name": "Pearson Auto",
+            "address": "1586 W 1700 S, Syracuse, UT",
+            "phone": " (801) 773-7710",
+            "website": "https://www.facebook.com/PearsonAuto/",
+            "image": ""  
+        },
+        {
+            "name": "Padgett Business Services",
+            "address": "2019 W 1900 S #120, Syracuse, UT",
+            "phone": "  (801) 217-3638",
+            "website": "https://www.padgettbusinessservices.com/syracuse/?utm_source=GMB&utm_medium=organic&utm_campaign=syracuse",
+            "image": "" 
+        },
+        {
+            "name": "FedEx Office Print and Ship Center",
+            "address": "2228 W 1700 S, Syracuse, UT",
+            "phone": " (385) 423-3010",
+            "website": "https://local.fedex.com/en-us/ut/syracuse/office-2583?cmp=LOC-1001545-3-1-971-1110000-US-US-EN-GPLCOPYANDPRINT",
+            "image": "" 
+        },
+        {
+            "name": "Syracuse Arts Academy",
+            "address": "2893 W 1700 S, Syracuse, UT",
+            "phone": "(801) 779-2066",
+            "website": "http://www.syracuseartsacademy.org/",
+            "image": "" 
+        },
+        {
+            "name": "Sheldon Peck Orthodontics",
+            "address": "1792 W 1700 S #201, Syracuse, UT",
+            "phone": "(801) 525-1333",
+            "website": "https://www.sheldonpeckorthodontics.com/",
+            "image": ""
+        },
+        {
+            "name": "Walmart Supercenter",
+            "address": "2228 W 1700 S, Syracuse, UT",
+            "phone": "(801) 775-9688",
+            "website": "https://www.walmart.com/store/3848-syracuse-ut?cn=Tracking_local_pack_1",
+            "image": ""   
+        },
+        {
+            "name": "Papa Murphy's",
+            "address": "2052 W 1700 S Suite B-2, Syracuse, UT",
+            "phone": "(801) 776-2233",
+            "website": "https://locations.papamurphys.com/ut/syracuse/2052-west-1700-south",
+            "image": ""  
+        },
+        {
+            "name": "Tanner Clinic",
+            "address": "2038 W 1900 S, Syracuse, UT",
+            "phone": "(801) 773-4840",
+            "website": "https://tannerclinic.com/location/syracuse/?utm_source=google%20maps&utm_medium=organic&utm_term=Google%20Business%20Syracuse",
+            "image": ""  
+        },
+        {
+            "name": "UEC Syracuse Stadium 6",
+            "address": "2428 W 1700 S, Syracuse, UT",
+            "phone": "(801) 773-2254",
+            "website": "https://www.uecmovies.com/theatres/details/1017",
+            "image": "" 
+        },
+        {
+            "name": "Cooney Family Dental",
+            "address": "1792 W 1700 S #203, Syracuse, UT",
+            "phone": "(801) 779-6037",
+            "website": "https://cooneyfamilydental.com/",
+            "image": ""
+        },
+        {
+            "name": "Hug-Hes Cafe",
+            "address": "2432 W 1700 S, Syracuse, UT",
+            "phone": "(801) 896-0661",
+            "website": "https://www.hughescafe.com/",
+            "image": ""
+        }
+    ]
+}
