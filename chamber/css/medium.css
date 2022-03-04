@@ -96,4 +96,12 @@
         transform: translate(-10px, -10px);
     }
 
+    #cards.active section {
+        padding: 1.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
 }

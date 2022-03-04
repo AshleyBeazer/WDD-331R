@@ -32,21 +32,26 @@
            <nav>
              <ul id="Nav">
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="index.html">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="index.html">Join</a></li>
                 <li><a href="index.html">Contact</a></li>  
             </ul>
            </nav>
            </div>
         </header>
-        <main>
+        <main class="directory">
             <header>
             <h1>Business Directory</h1>
             </header>
-            <div class="cards"></div>
-            <a href="https://wireframe.cc/pAfVtN">Desktop wireframe</a>
-            <a href="https://wireframe.cc/RIGc2G">Tablet wireframe</a>
-            <a href="https://wireframe.cc/y4y60O">Mobile wireframe</a>
+            <div class="directory-btns">
+                <button id="gridBtn" onclick="toogleView()">
+                    <span><img src="./images/grid.png" alt="Grid view"></span> </button>
+                    <button id="listBtn" onclick="toogleView()">
+                    </button><span><img src="./images/list.png" alt="List view"></span>
+                    </button>
+            </div>
+        </div>
+            <div id="cards"></div>
         </main>
         <footer>
             <div class="footer-main">
@@ -73,6 +78,6 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         </footer>
       <script src="js/home-page.js"></script>
-      <script src="directory.js"></script>
+      <script src="js/directory.js"></script>
     </body>
 </html>
