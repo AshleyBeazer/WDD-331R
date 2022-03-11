@@ -147,6 +147,7 @@ h3 {
   font-size: 30px;
   font-family: 'Dancing Script', cursive;
 }
+
 .join-chamber {
  background-color: #ffe57e;
  color: #ffa971;
@@ -169,6 +170,9 @@ h3 {
   color: #5bc0be;
   text-align: center;
   }
+  .event p {
+    color: #ffffff;
+  }
   .weather {
     grid-template-columns: 1/5;
     grid-template-rows: 3;
@@ -181,8 +185,22 @@ h3 {
     text-align: center;
     }
     .weather img {
-      max-width: 30%;
       float: left;
+    }
+    .weather p {
+      color:#ffffff;
+      margin-top: -7px;
+      float: right;
+      text-align: left;
+    }
+    #current-temp {
+      font-size: 30px;
+    }
+    .output {
+      color:#ffffff
+    }
+    .speed {
+      color:#ffffff;
     }
     .news {
       grid-template-columns: 1/5;
@@ -194,6 +212,9 @@ h3 {
       background-color: #2c497f;
       color: #5bc0be;
       text-align: center;
+      }
+      .news p {
+        color:#ffffff;
       }
       .place-holder {
         grid-template-columns: 1/5;
@@ -238,6 +259,9 @@ h3 {
             padding: 2px;
             background-color: #ffe57e;
             align-content: center;
+          }
+          .join p {
+            color: #ffffff;
           }
           footer img {
             width: 60px;
