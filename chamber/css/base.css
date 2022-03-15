@@ -24,6 +24,9 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+.banner {
+  background-color: #5bc0be;
+}
 .logo img {
   max-width: 60px;
 }
@@ -52,6 +55,7 @@ list-style-type: none;
   grid-column: 1/5;
   padding: 2em;
   text-align: center;
+  background-color: #ffa971;
 }
 main {
     color: #2c497f;
