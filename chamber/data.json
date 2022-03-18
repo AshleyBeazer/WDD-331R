@@ -5,14 +5,14 @@
             "address": "2432 W 1700 S, Syracuse, UT",
             "phone": "(385) 477-8663",
             "website": "https://www.lovethebird.com",
-            "image": "./images/theBird.png"
+            "image": "./images/theBird.webp"
         },
         {
             "name": "Pearson Auto",
             "address": "1586 W 1700 S, Syracuse, UT",
             "phone": " (801) 773-7710",
             "website": "https://www.facebook.com/PearsonAuto/",
-            "image": "./images/PearsonAuto.png"  
+            "image": "./images/PearsonAuto.webp"  
         },
         {
             "name": "Padgett Business Services",
@@ -33,7 +33,7 @@
             "address": "2893 W 1700 S, Syracuse, UT",
             "phone": "(801) 779-2066",
             "website": "http://www.syracuseartsacademy.org",
-            "image": "./images/SAA.png" 
+            "image": "./images/SAA.webp" 
         },
         {
             "name": "Sheldon Peck Orthodontics",

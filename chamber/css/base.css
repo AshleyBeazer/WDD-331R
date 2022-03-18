@@ -149,7 +149,6 @@ h3 {
   font-size: 30px;
   font-family: 'Dancing Script', cursive;
   margin-top: -10em;
-  float: top;
 }
 .hero .joinBtn1 {
   position: absolute;
@@ -187,8 +186,8 @@ h3 {
  text-align: left;
 }
 .event {
-  grid-template-columns: 1/5;
-  grid-template-rows: 2;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr;
   border-style: solid;
   height: 13em;
   padding-top: 1em;
@@ -201,8 +200,8 @@ h3 {
     color: #ffffff;
   }
   .weather {
-    grid-template-columns: 1/5;
-    grid-template-rows: 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr;
     border-style: solid;
     height: 13em;
     padding-top: 1em;
@@ -230,8 +229,8 @@ h3 {
       color:#ffffff;
     }
     .news {
-      grid-template-columns: 1/5;
-      grid-template-rows: 4;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 4fr;
       border-style: solid;
       height: 13em;
       padding-top: 1em;
@@ -244,8 +243,8 @@ h3 {
         color:#ffffff;
       }
       .place-holder {
-        grid-template-columns: 1/5;
-        grid-template-rows: 5;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 5fr;
         border-style: solid;
         padding-top: 1em;
         padding-left: 1em;
@@ -271,8 +270,8 @@ h3 {
           width: 100px;
         }
         .join {
-          grid-template-columns: 1/5;
-          grid-template-rows: 6;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          grid-template-rows: 6fr;
           border-style: solid;
           height: 9em;
           padding-top: 1em;
