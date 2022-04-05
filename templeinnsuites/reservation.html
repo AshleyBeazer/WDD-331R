@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ashley McKeehan's WDD 230 The Temple Inn & Suite Site">
+        <title>WDD 230 The Temple Inn & Suite</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="content">
+                <header>
+            <div class="headerContent">
+            <div class="logo">
+           <img src="./images/Temple-Inn-Suites-Logo.webp" alt="The Temple Inn & Suites Logo"/>
+          </div>
+          <div class="name">
+           <h1>The Temple Inn & Suites</h1>
+           </div>
+           <section class="socialMedia">
+            <a href="https://www.facebook.com/"><img src="./images/facebook.webp" alt="Facebook icon"></a>
+            <a href="https://www.instagram.com/?hl=en"><img src="./images/instagram_ccexpress.webp" alt="Instagram icon"></a>
+           </section>
+           <span id="date"></span>
+           <button id="hamburgerMenu"><span>&#9776;</span><span>X</span></button>
+           <nav>
+             <ul id="Nav"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+           </nav>
+           </div>
+        </header>
+        <main>
+            <main class="form">
+                <h2>Make a Reservation</h2>
+                <form action="thankyou.html">
+                    <fieldset>
+                        <legend>Reservation Information</legend>
+                        <label>Location<span>*</span>
+                            <input name="city" pattern="^[a-zA-Z ]{3,}[a-zA-Z]$" type="text" placeholder="city or country" required>
+                        </label>
+                        <label>Date<span>*</span>
+                            <input name="date" type="text" required>
+                        </label>
+                        <label>Number of Rooms<span>*</span></label>
+                            <select name="#rooms" id="number-rooms" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        <label>Type of Rooms<span>*</span></label>
+                            <select name="room-type" id="room-type" required>
+                                <option value="suite">Suite</option>
+                                <option value="studio">Studio</option>
+                                <option value="king">King</option>
+                                <option value="queen">Queen</option>
+                                <option value="twin">Twin</option>
+                                <option value="double-double">Double Double</option>
+                            </select>
+                    </fieldset>
+                    <div class="contact-info">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label>Full Name<span>*</span>
+                                <input name="name" pattern="^[a-zA-Z ]{3,}[a-zA-Z]$" type="text" required>
+                            </label>
+                            <label>Email<span>*</span>
+                                <input name="email" type="email" placeholder="someone@gmail.com" required>
+                            </label>
+                            <label>Phone Number<span>*</span>
+                                <input name="phone" type="tel" required>
+                            </label>
+                            <label>Home State/Country<span>*</span>
+                                <input name="title" type="text" required>
+                            </label>
+                        </fieldset>
+                    </div>
+                        <fieldset>
+                            <legend>Comments</legend>
+                        <label>Special Accommodations/Comments
+                            <textarea name="comments"></textarea>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Submit Reservation">
+                    <input type="hidden" name="language" id="inputHidden">
+                </form>
+            </main>
+        </div>
+        <footer>
+            <div class="footer-main">
+            <img src="./images/Temple-Inn-Suites-Logo.webp" alt="The Temple Inn & Suites Logo"><br>
+           <div class="address">
+            <h3>The Temple Inn & Suites</h3>
+            <h4>4800 Montgomery Ln #300<br>Bethesda, MD 20814</h4>
+            </div>
+            </div>
+            <div class="info">
+            <h4>templeinnsuites.com</h4>
+            <h4>(123) 456-7890</h4>
+            <a href="https://goo.gl/maps/nbDr2zvWs4Fp5GTw9">📍Temple Inn & Suites Map</a><br>
+            <a href="resources.html">📄Attribution Page</a>
+            </div>
+            <div class="school">
+                &copy;<span id="currentYear"></span> | Ashley McKeehan | WDD 230 | 
+                <span id="lastUpdate"></span>
+                </div>
+        </footer>
+      <script src="js/navigation.js"></script>
+      <script src="js/date.js"></script>
+      
+    </body>
+</html>
