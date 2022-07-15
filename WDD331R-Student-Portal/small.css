@@ -1,0 +1,48 @@
+h1,
+h2 {
+color:darksalmon;
+}
+#content {
+ max-width: 100%;   
+ margin: 0 auto;
+ display:block;
+}
+img {
+    max-width: 30%;
+    padding-left: 19em;
+    margin-top: -4em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+header {
+    background-color: rgb(49, 36, 136);
+    border-radius: 20px 20px 20px 20px;
+}
+footer {
+    background-color: rgb(49, 36, 136);
+    border-radius: 20px 20px 20px 20px;
+    color: darksalmon;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'Comforter Brush', cursive;
+}
+h1 {
+    padding-left: 1em;
+    position: relative;
+    top: 2.5em;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 2em;
+
+}
+html, body{
+    max-width: 500px;
+    max-height: 300px;
+}
+ul {
+    font-family: 'Quicksand', sans-serif;
+}
+h2 {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 1em;
+}
